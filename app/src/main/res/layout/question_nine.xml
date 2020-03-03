@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:id="@+id/txt_titleQ9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question 9"
+        android:textSize="26sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colordark"
+        />
+    <TextView
+        android:id="@+id/txt_question9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What characteristic do you think is the most important to evaluate a phone?"
+        android:textSize="24sp"
+        android:layout_margin="30dp"
+        />
+    <RadioGroup
+        android:id="@+id/rg_Q9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="80dp">
+        <RadioButton
+            android:id="@+id/rg_appear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Appearance"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+        <RadioButton
+            android:id="@+id/rg_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+        <RadioButton
+            android:id="@+id/rg_performance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Performance"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+        <RadioButton
+            android:id="@+id/rg_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Others"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+    </RadioGroup>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_next9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:textSize="40sp"
+            android:background="@color/colorPrimary"
+            android:layout_margin="20dp"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>
+
